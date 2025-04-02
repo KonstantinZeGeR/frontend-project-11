@@ -6,9 +6,19 @@ env:
 extends:
   - airbnb-base
 
+plugins:
+  - import
+
 parserOptions:
   ecmaVersion: 12
   sourceType: module
 
 rules:
   no-console: off
+  import/no-extraneous-dependencies:
+    - error
+    - devDependencies:
+        - webpack.config.js
+      optionalDependencies: false
+      peerDependencies: false
+      packageDir: "./"
