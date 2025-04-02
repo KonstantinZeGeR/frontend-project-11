@@ -1,0 +1,26 @@
+{
+  "name": "frontend-project-11",
+  "version": "1.0.0",
+  "description": "RSS-агрегатор. Учебный проект",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KonstantinZeGeR/frontend-project-11.git"
+  },
+  "keywords": [],
+  "author": "Konstantin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KonstantinZeGeR/frontend-project-11/issues"
+  },
+  "homepage": "https://github.com/KonstantinZeGeR/frontend-project-11#readme",
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.31.0"
+  }
+}
