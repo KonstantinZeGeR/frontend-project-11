@@ -19,7 +19,12 @@ export default {
     port: 8080,
   },
   module: {
-    rules: [],
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
+    ],
   },
   mode: 'development',
 };
